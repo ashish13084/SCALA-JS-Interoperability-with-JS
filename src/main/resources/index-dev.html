@@ -5,15 +5,18 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body style="margin: 0px">
-
-<div>
-    <canvas style="display: block" id="canvas" width="255" height="255"/>
+<div id="n">
 </div>
-
+<div id="m">
+</div>
+<script type="text/javascript" src="../bar.js"></script>
 <script type="text/javascript" src="../example-fastopt.js"></script>
 <script type="text/javascript" src="/workbench.js"></script>
 <script>
-    example.ScalaJSExample().main(document.getElementById('canvas'));
+document.getElementById("n").innerHTML=square(5)
+</script>
+<script>
+    example.ScalaJSExample().main(document.getElementById('m'));
 </script>
 </body>
 </html>
